@@ -6,3 +6,6 @@ sub-card(){
 }
 
 }
+class visa{
+div(){
+}
