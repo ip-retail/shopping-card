@@ -1,0 +1,7 @@
+class card{
+
+sub(){
+}
+mul(){
+}
+}
