@@ -15,4 +15,22 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+    <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>shopping-card-releases</id>
+      <name>shopping-card-releases</name>
+      <url>http://ec2-52-66-240-69.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/shopping-card-releases/</url>
+      <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>shopping-card-snapshots</id>
+      <name>shopping-card-snapshots</name>
+      <url>http://ec2-52-66-240-69.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/shopping-card-snapshots/</url>
+      <layout>legacy</layout>
+    </snapshotRepository>
+    
+  </distributionManagement>
+
 </project>
